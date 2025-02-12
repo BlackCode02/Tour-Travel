@@ -79,6 +79,7 @@
 .tour-box-content {
   padding: 20px 30px;
   overflow: hidden !important;
+  color: #fff;
 }
 .tour-box-img {
   min-width: 239px;
