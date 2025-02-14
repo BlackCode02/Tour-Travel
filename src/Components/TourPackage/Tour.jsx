@@ -17,7 +17,7 @@ const Tour = () => {
           alt=""
           srcset=""
           height={564}
-          style={{ width: "-webkit-fill-available" }}
+          style={{ width: "-webkit-fill-available", objectFit: "cover" }}
         />
       </div>
       <div className="tourContainer">
