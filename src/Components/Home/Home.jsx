@@ -268,7 +268,12 @@ const Home = () => {
           </h2>
         </div>
         <div className="stories-slider-container">
-          <marquee behavior="" direction="up" style={{ whiteSpace: "normal" }}>
+          <marquee
+            behavior="scroll"
+            direction="up"
+            scrollamount="3"
+            style={{ whiteSpace: "normal" }}
+          >
             <div className="cards">
               <p className="cardTitle">
                 "Shivaaksh Travels made my trip unforgettable. The attention to

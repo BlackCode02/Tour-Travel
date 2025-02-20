@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Navbar.css";
+import logo from "./travel-logo.jpeg";
 import { Link, NavLink } from "react-router-dom";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,7 +12,7 @@ const Navbar = () => {
     <>
       <header className="header-navbar">
         <div className="logo-conatiner">
-          <img src="" alt="" />
+          <img src={logo} alt="Travels-logo" />
           <span>
             <Link to="/">Shivaaksh Travels</Link>
           </span>
